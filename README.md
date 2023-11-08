@@ -1,6 +1,7 @@
 # Air Alarm
 
 Video overview:  <https://youtu.be/M5bPgH7Z2i0>
+This repository is my final project for the cs50x course.
 
 
 ## Overview of the Course
@@ -30,9 +31,9 @@ The following files are included in this repository:
 
 
 ## Libraries used in the project
-- [telethon](https://docs.telethon.dev/en/stable/): to parse information from channel telegrams;
+- [Telethon](https://docs.telethon.dev/en/stable/): to parse information from channel telegrams;
 
-- [configparser](https://docs.python.org/3/library/configparser.html): to retrieve the configuration from a configuration file;
+- [Configparser](https://docs.python.org/3/library/configparser.html): to retrieve the configuration from a configuration file;
 
 - [Flask](https://flask.palletsprojects.com/en/3.0.x/): to create and host a web application;
 
@@ -43,7 +44,7 @@ The following files are included in this repository:
 
 ## Warning
 
-After you have installed all of the files on your computer, you must modify the configuration file [`config.ini`](static/config/config.ini) and add your telegram account info there. Otherwise, nothing will function.
+After you have installed all of the files on your computer, you must modify the configuration file [config.ini](static/config/config.ini) and add your telegram account info there. Otherwise, nothing will function.
 
 
 ## Course URL
