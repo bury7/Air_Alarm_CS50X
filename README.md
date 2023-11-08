@@ -54,7 +54,7 @@ Aside from the interactive map and air quality alerts, the site has a number of 
 
 ### Information Source
 
-The site uses an API that connects to a bespoke Telegram parser script to receive air quality alarm information. The Telegram parser pulls data from specified channel [Повітряна Тривога](https://t.me/air_alert_ua) providing current-day air quality notifications. It determines the start and end timings of each air quality warning and utilizes this information to construct a message that includes information such as the area name, alert status, start time, and length of the alert.
+The site uses an API that connects to a bespoke Telegram parser script to receive air quality alarm information. The Telegram parser pulls data from specified channel [`Повітряна Тривога`](https://t.me/air_alert_ua) providing current-day air quality notifications. It determines the start and end timings of each air quality warning and utilizes this information to construct a message that includes information such as the area name, alert status, start time, and length of the alert.
 
 
 ## Warning
