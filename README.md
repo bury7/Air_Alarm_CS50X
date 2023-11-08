@@ -40,6 +40,12 @@ The following files are included in this repository:
 ## Project Description
 
 
+
+## Warning
+
+After you have installed all of the files on your computer, you must modify the configuration file [config.ini](static/config/config.ini) and add your telegram account info there. Otherwise, nothing will function.
+
+
 ## Course URL
 
 To learn about CS50 Python course, go to the official course website on the edX platform: [CS50's Introduction to Computer Science](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science).
