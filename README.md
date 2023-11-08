@@ -1,7 +1,7 @@
 # Air Alarm
 
 Video overview:  <https://youtu.be/M5bPgH7Z2i0>
-This repository is my final project for the cs50x course.
+This repository is my final project for the СS50X course. In which I implemented a site that displays information about air alarms in the regions of Ukraine.
 
 
 ## Overview of the Course
@@ -39,7 +39,21 @@ The following files are included in this repository:
 
 
 ## Project Description
+On this website, you'll discover an interactive map of Ukraine with all of its regions, created with path components. The website uses a color-coding system to notify visitors about air quality problems in certain areas. When an air alert is issued in a certain location, the site highlights it in red. Furthermore, the information tab provides extra information, such as the alert's start time and length.
 
+### Additional Site Functions
+
+Aside from the interactive map and air quality alerts, the site has a number of other features:
+
+- **Theme Selection**: Users may customize their surfing experience by switching between dark and bright themes.
+  
+- **In-Depth Air Quality Alert Information**: The site gives access to in-depth information on the gathered air quality warnings. Users may examine a list of air quality alarms and obtain detailed information.
+
+- **Manual Air Alarm Status Update**: Users can manually update an alarm's air quality status.
+
+### Information Source
+
+The site uses an API that connects to a bespoke Telegram parser script to receive air quality alarm information. The Telegram parser pulls data from specified channels providing current-day air quality notifications. It determines the start and end timings of each air quality warning and utilizes this information to construct a message that includes information such as the area name, alert status, start time, and length of the alert.
 
 
 ## Warning
