@@ -7,9 +7,32 @@ Video overview:  <https://youtu.be/M5bPgH7Z2i0>
 
 
 ## Contents of the Repository
+The following files are included in this repository:
+
+
+- [app.py](app.py):
+
+- [requirements.txt](requirements.txt):
+
+- [index.html](templates/index.html):
+
+- [layout.html](templates/layout.html):
+
+- [config.ini](static/config/config.ini):
+  
+- [main.css](static/css/main.css):
+  
+- [main.js](static/js/main.js):
+  
+- [parser_telegram.py](static/python/parser_telegram.py):
 
 
 ## Libraries used in the project
+- [telethon](https://docs.telethon.dev/en/stable/): to parse information from channel telegrams;
+
+- [configparser](https://docs.python.org/3/library/configparser.html): to retrieve the configuration from a configuration file;
+
+- [Flask](https://flask.palletsprojects.com/en/3.0.x/): to create and host a web application;
 
 
 ## Project Description
