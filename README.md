@@ -4,27 +4,29 @@ Video overview:  <https://youtu.be/M5bPgH7Z2i0>
 
 
 ## Overview of the Course
+CS50x was a transformative experience, immersing me in the fascinating realm of computer science and programming. This comprehensive course explored a wide range of topics, from fundamental concepts like algorithms and data structures to advanced subjects such as web development and software engineering. Throughout the program, I gained essential programming skills and honed my problem-solving abilities, deepening my understanding of computer science principles.
+
+The pinnacle of the CS50x journey was the final project, where I creatively applied my newfound knowledge to solve real-world problems. This project not only showcased my ability to tackle complex challenges but also underscored the practical applications of computer science. In the end, CS50x equipped me with a strong foundation in computer science and a newfound appreciation for its versatility and relevance in various domains, opening doors to exciting opportunities in our ever-evolving technological landscape.
 
 
 ## Contents of the Repository
 The following files are included in this repository:
 
+- [app.py](app.py): The file for configuring the Flask web application, creating routes and APIs
 
-- [app.py](app.py):
+- [requirements.txt](requirements.txt): This file has all the requirements to run the program
 
-- [requirements.txt](requirements.txt):
+- [index.html](templates/index.html): This file contains the HTML code of the web page
 
-- [index.html](templates/index.html):
+- [layout.html](templates/layout.html): This file stores the layout for all HTML files
 
-- [layout.html](templates/layout.html):
-
-- [config.ini](static/config/config.ini):
+- [config.ini](static/config/config.ini): The settings for the parser is kept in this file, namely the telegram api id and api hash.
   
-- [main.css](static/css/main.css):
+- [main.css](static/css/main.css): This file contains all of the CSS styles used by the site.
   
-- [main.js](static/js/main.js):
+- [main.js](static/js/main.js): This file contains all of the JS scripts that the site uses.
   
-- [parser_telegram.py](static/python/parser_telegram.py):
+- [parser_telegram.py](static/python/parser_telegram.py): This file contains the telegram parser for the channel where air alarm information is broadcast.
 
 
 ## Libraries used in the project
