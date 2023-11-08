@@ -43,7 +43,7 @@ The following files are included in this repository:
 
 ## Warning
 
-After you have installed all of the files on your computer, you must modify the configuration file [config.ini](static/config/config.ini) and add your telegram account info there. Otherwise, nothing will function.
+After you have installed all of the files on your computer, you must modify the configuration file [`config.ini`](static/config/config.ini) and add your telegram account info there. Otherwise, nothing will function.
 
 
 ## Course URL
